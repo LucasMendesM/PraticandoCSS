@@ -1,0 +1,77 @@
+/**/
+/*
+    font-family altera a fonte do nosso texto. (Podendo usar fontes da web ou instaladas me nossa máquina.)
+
+    Exemplo abaixo:
+*/
+
+#title {
+    font-family: Verdana, Arial, Helvetica;
+}
+
+/*...............................................................................*/
+
+/*
+    font-size altera o tamanho do nosso texto.
+
+    Exemplo abaixo:
+*/
+
+#title {
+    font-size: 20px;
+}
+
+/*...............................................................................*/
+
+/*
+    font-style altera a aparência do nosso texto. (Podendo usar estilos como Normal or Italic.)
+
+    Exemplo abaixo:
+*/
+
+#title {
+    font-style: italic;
+}
+
+/*...............................................................................*/
+
+/*
+    font-weigth altera o peso do nosso texto.
+
+    Exemplo abaixo:
+*/
+
+#title {
+    font-weight: bold;
+}
+
+/*...............................................................................*/
+
+/*
+    text-transform altera a fonte do nosso texto entre Maiusculo, Minusculo, etc.
+
+    Exemplo abaixo:
+*/
+
+#title {
+    text-transform: capitalize;
+}
+
+/*...............................................................................*/
+
+/*
+    text-decoration usado para dar destaque ao nosso texto. (Adiciona linhas ao texto)
+
+    Exemplo abaixo:
+*/
+
+#title {
+    text-decoration: underline;
+}
+
+#title {
+    text-decoration: line-through;
+}
+
+/*...............................................................................*/
+
