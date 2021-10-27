@@ -1,0 +1,52 @@
+.post {
+    padding: 10px 5px;
+}
+/*Manipulando padding para medidas (10px = Superior e Inferior) (5px = Laterais)*/
+
+.post {
+    padding: 15px 10px 5px 0;
+}
+/*Manipulando padding para medidas (15px = Cima) (10px = Direita) (5px = Baixo) 
+(0 = Esquerda)... lembrando que atribuir o valor zero não precisa usar o termo "px"*/
+
+.post {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+/*Usando uma propriedade para cada lado.*/
+
+.post {
+    background-color: blue;
+    background-image: url("urlDaImg.png");
+    background-position: top;
+}
+/*Podemos alterar ao fundo, o posicionamento, cores, colocar imagem e muito mais.*/
+
+.post {
+    border: blue 3px solid;
+    border-top: blueviolet 2px dotted;
+    border-right: firebrick 5px dashed;
+}
+/*A borda pode ser mudado sua cor, largura e estilo(Solido,TPontilhado e Tracejado)*/
+
+.post {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+/*Usando uma propriedade para cada lado.*/
+
+.post {
+    border-style: none;
+    border-color: none;
+    border-width: none;
+}
+/*Usando uma propriedade para cada estilo.*/
+
+.post {
+    border-radius: 50%;
+}
+/*Um border radius de 50% deixa sua borda REDONDA*/

@@ -1,0 +1,23 @@
+/*
+Existem listas ordenadas e não ordenadas.. E para alterar o marcador dessas listas usamos o "list-style-type" conforme apresentado abaixo
+*/
+
+ul {
+    list-style-type: square;  
+}
+/*Alterando simbolo de uma lista não ordenada para um quadrado.*/
+
+ol {
+    list-style-type: upper-roman;
+}
+/*Alterando marcador de uma lista ordenada par alagaraismo romano maiusculo.*/
+
+ul {
+    list-style-type: "\1F44D";
+}
+/*Alterando o marcador de uma lista não ordenada por um simbolo (Joinha neste caso.)*/
+
+ul{
+    list-style-image: url("urlDaImagem.png");
+}
+/*Adicionando imagens com marcadores*/
